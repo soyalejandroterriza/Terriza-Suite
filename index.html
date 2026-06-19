@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terriza - Galería de Herramientas</title>
+    <meta name="description" content="Una galería moderna de herramientas y utilidades de software con diseño premium y glassmorphism.">
+    <!-- Google Fonts: Noto Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Decoración de fondo (Luminosity Blobs) -->
+    <div class="bg-glow blob-1" aria-hidden="true"></div>
+    <div class="bg-glow blob-2" aria-hidden="true"></div>
+    <div class="bg-glow blob-3" aria-hidden="true"></div>
+    
+    <!-- Logo de fondo -->
+    <div class="bg-logo" aria-hidden="true"></div>
+
+    <div class="wrapper">
+        <!-- Cabecera de la página -->
+        <header class="main-header">
+            <div class="logo">
+                <h1>Terriza</h1>
+            </div>
+        </header>
+
+        <!-- Galería de herramientas (Stack Vertical) -->
+        <main class="gallery-container">
+            <!-- 1. TMT -->
+            <div class="tool-card disabled" id="tool-tmt">
+                <div class="card-inner">
+                    <div class="card-info">
+                        <div class="icon-wrapper">
+                            <!-- Icono SVG TMT (Dashboards/Gestor) -->
+                            <svg class="tool-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <rect x="14" y="3" width="7" height="5" rx="1.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <rect x="3" y="16" width="7" height="5" rx="1.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <rect x="14" y="12" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <circle cx="6.5" cy="7.5" r="1" fill="currentColor"/>
+                                <circle cx="17.5" cy="5.5" r="1" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="card-text">
+                            <h2>TMT</h2>
+                            <p>Extensión multiherramienta.</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <div class="glass-btn-simulated disabled">
+                            <span>No disponible</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Cruzar IDs -->
+            <a href="https://soyalejandroterriza.github.io/comparador-ids/" target="_blank" rel="noopener noreferrer" class="tool-card" id="tool-cruzar-ids">
+                <div class="card-inner">
+                    <div class="card-info">
+                        <div class="icon-wrapper">
+                            <!-- Icono SVG Cruzar IDs (Data Join/Overlapping) -->
+                            <svg class="tool-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 22C12.866 22 16 18.866 16 15C16 11.134 12.866 8 9 8C5.13401 8 2 11.134 2 15C2 18.866 5.13401 22 9 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 16C18.866 16 22 12.866 22 9C22 5.13401 18.866 2 15 2C11.134 2 8 5.13401 8 9C8 12.866 11.134 16 15 16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12L12.01 11.99" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-text">
+                            <h2>Cruzar IDs</h2>
+                            <p>Localiza IDs duplicadas entre archivos.</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <div class="glass-btn-simulated">
+                            <span>Cruzar Datos</span>
+                            <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 3. Optimizador de imágenes -->
+            <a href="https://soyalejandroterriza.github.io/optimizador-imagenes/" target="_blank" rel="noopener noreferrer" class="tool-card" id="tool-optimizador-imagenes">
+                <div class="card-inner">
+                    <div class="card-info">
+                        <div class="icon-wrapper">
+                            <!-- Icono SVG Optimizador de imágenes (Imagen + Rayo/Compresión) -->
+                            <svg class="tool-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 16L8.586 11.414C9.367 10.633 10.633 10.633 11.414 11.414L16 16M14 14L15.586 12.414C16.367 11.633 17.633 11.633 18.414 12.414L20 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="8.5" cy="9.5" r="1.5" fill="currentColor"/>
+                                <path d="M22 6L19 9H21L18 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-text">
+                            <h2>Optimizador</h2>
+                            <p>Redimensiona las imágenes para reducirlas &lt;500Kbs.</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <div class="glass-btn-simulated">
+                            <span>Optimizar Fotos</span>
+                            <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 4. SIBU -->
+            <div class="tool-card disabled" id="tool-sibu">
+                <div class="card-inner">
+                    <div class="card-info">
+                        <div class="icon-wrapper">
+                            <!-- Icono SVG SIBU (Modular Cube / CMS) -->
+                            <svg class="tool-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-text">
+                            <h2>SIBU</h2>
+                            <p>Crea, almacena, edita, modifica, elimina y distribuye presupuestos de manera sencilla.</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <div class="glass-btn-simulated disabled">
+                            <span>No disponible</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Script opcional para micro-interacciones interactivas -->
+    <script>
+        // Animación suave de seguimiento del ratón para un brillo de cristal dinámico
+        document.querySelectorAll('.tool-card').forEach(card => {
+            card.addEventListener('mousemove', e => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                card.style.setProperty('--mouse-x', `${x}px`);
+                card.style.setProperty('--mouse-y', `${y}px`);
+            });
+        });
+    </script>
+</body>
+</html>
