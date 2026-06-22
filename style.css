@@ -109,7 +109,7 @@ body {
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 60px 20px;
     display: flex;
@@ -262,9 +262,7 @@ body {
 .card-text p {
     font-size: 0.85rem;
     color: var(--text-secondary);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
 }
 
 /* En resoluciones medianas y grandes, ponemos el título y la descripción al lado */
